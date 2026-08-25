@@ -116,9 +116,9 @@ const cosine = (a, b) => {
 // ---------- register arc ---------------------------------------------------
 
 const LEX = {
-  distress: 'crisis threat threats extinction collapse death dying dead loss grief fear worry worried pollution destroy destroying damage risk risks danger catastrophe disaster futility nihilism melancholia smother vulnerable drought flood refugee dissonant frustration ambivalence',
+  distress: 'crisis threat threats extinction collapse death dying dead loss grief fear worry worried pollution destroy destroying damage risk risks danger catastrophe disaster futility nihilism melancholia smother vulnerable drought flood refugee dissonant frustration ambivalence dry deficit shortfall poverty poor shrink shrinking erased buried decay decays angry anger shortage shortages fight fights fossilized',
   agency: 'power powers tool tools build building create ability able understand understanding model models simulate simulation learn solve heal healing restore together participate community help improve succeed succeeded eradicating ingenuity',
-  hope: 'hope hopeful future better beautiful love cherish joy happy thrive flourish rebound rebounding optimism opportunity possibility luckily blossomed',
+  hope: 'hope hopeful hopes future futures better beautiful love cherish joy happy thrive flourish rebound rebounding optimism opportunity possibility luckily blossomed open honest honestly recovery recover',
 };
 for (const k of Object.keys(LEX)) LEX[k] = new Set(LEX[k].split(' '));
 
