@@ -1,0 +1,8 @@
+{
+ "name": "heckler",
+ "version": "0.1.0",
+ "private": true,
+ "type": "module",
+ "bin": { "heckler": "bin/heckler.mjs" },
+ "scripts": { "baseline": "node bin/heckler.mjs baseline corpus/simulate-world-about.md" }
+}
