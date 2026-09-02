@@ -1,0 +1,7 @@
+name = "heckler"
+horizon = "2027"
+repo = "anselm/heckler"
+code = "local"
+deploy = "none"
+autodeploy = false
+notes = ""
